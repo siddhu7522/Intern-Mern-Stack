@@ -1,0 +1,313 @@
+header{
+  display: flex;
+  background-color:violet;
+  color:white;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top:-10px;
+}
+
+.navbar__left a{
+  color:rgb(39, 31, 31);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color:green;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar__right{
+  display: flex;
+  align-items: center;
+}
+.navbar__right a{
+  /* margin: 20px; */
+ text-decoration: none;
+ /* width: 100px; */
+ color:white;
+ overflow: hidden;
+ padding:10px;
+
+  
+
+  
+}
+.product__image{
+  height:200px;
+  width:200px;
+  object-fit: contain;
+}
+.products{
+  display: grid;
+ 
+  grid-template-columns: repeat(2,1fr);
+}
+.card{
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+  margin:10px;
+  padding:20px;
+}
+.card__body a{
+  text-decoration: none;
+}
+.card__body a:hover{
+  color:orange
+}
+.price{
+  font-size:20px;
+  font-weight: 600;
+  margin-top:10px;
+}
+.product__rating{
+  color:gold;
+  margin-top: 10px;
+}
+.product__reviews{
+  color: black;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.products__row{
+  display: flex;
+  justify-content: space-between;
+  margin:20px
+}
+.productrow__image{
+  height:400px;
+  object-fit: contain;
+  width: 400px;
+  flex-wrap: wrap;
+  
+}
+.product__row2{
+  margin-top:50px;
+}
+.product__row3{
+  border: 1px solid white;
+  background-color: white;
+  box-shadow:  -1px 6px 13px 0px rgba(0,0,0,0.44);
+  width:300px;
+  height:400px;
+  padding:50px;
+}
+.product__button{
+  margin-top:20px;
+  height:40px;
+  width:200px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.success{
+  color:darkgreen;
+  font-weight: 600;
+  font-size: 25px;
+  padding-left:20px;
+}
+.error{
+  color:red;
+  font-weight: 600;
+  font-size: 25px;
+  padding-left:20px;
+
+}
+.price{
+  padding-left:30px;
+  padding-top:0px
+}
+.loading{
+  transition:2s ease-in;
+  opacity:3s
+}
+.product__quantity{
+  display: flex;
+  justify-content: space-between;
+}
+.product__select{
+  width: 120px;
+  padding: 5px;
+}
+.badge{
+  background-color:red;
+  color:white;
+  border-radius: 50%;
+  padding: 0.2rem 0.7rem;
+  font-size: 1.1rem;
+  margin-left: 0.2rem;
+}
+/* .min-30 {
+  min-width: 30rem;
+} */
+img.small {
+  max-width: 5rem;
+  width: 100%;
+  margin-top:30px;
+}
+.min-30__link{
+  color: black;
+ 
+  text-decoration: none;
+ font-size:18px;
+  display: flex;
+
+}
+  
+
+
+.min__30{
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:200px;
+  min-width: 60rem;
+  margin-top:40px;
+ 
+}
+
+.product__checkout{
+  position: absolute;
+  top:0;
+  right: 0;
+  margin-top:100px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:  -1px 6px 13px 0px rgba(0,0,0,0.44);
+  padding:30px;
+  width:400px;
+  height:150px
+}
+.cart__section{
+  margin-top:100px;
+  width: 80%;
+}
+.checkout__button{
+  margin-top:20px;
+  height:40px;
+  width:200px;
+  background-color: orangered;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.qty{
+  width:150px;
+  padding: 10px;
+}
+.delete{
+  margin-top:20px;
+  height:40px;
+  width:200px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.signIn__form{
+   /* display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;  */
+  margin: 100px auto;
+  text-align: center;
+  padding:20px;
+  margin:30px;
+  /* border:1px solid white;
+  background-color: white;
+  box-shadow: -1px 6px 13px 0px rgba(0,0,0,0.44);
+  height:350px; */
+  /* width:440px; */
+  }
+.signIn__form input{
+  width:700px;
+  height:60px;
+  margin:10px;
+  padding:15px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.btn{
+  width:200px;
+}
+.checkout-steps div{
+  border-top: 0.3rem #c0c0c0 solid;
+  color:#c0c0c0;
+  flex: 1;
+  padding: 1rem;
+  font-weight: bold;
+}
+.checkout-steps div.active{
+  border-top-color:#f08000 ;
+  color:#f08000
+}
+
+.payment__form{
+  text-align: center;
+  padding:50px;
+  
+}
+.payment__form input{
+margin:30px;
+}
+.placeorder__shipping{
+  width:60%;
+  padding:20px;
+  border: 1px solid white;
+  background-color:white;
+  box-shadow:-1px 6px 13px 0px rgba(0,0,0,0.44) ;
+
+}
+.placeorder__payment{
+  width:60%;
+  padding:20px;
+  border: 1px solid white;
+  background-color:white;
+  box-shadow:-1px 6px 13px 0px rgba(0,0,0,0.44) ;
+
+}
+.placeorder__items{
+  width:60%;
+  padding:20px;
+  border: 1px solid white;
+  background-color:white;
+  box-shadow:-1px 6px 13px 0px rgba(0,0,0,0.44) ;
+
+}
+.placeorder li{
+  list-style: none;
+}
+.order__summary{
+
+  position: absolute;
+  right: 0;
+  top:0;
+  margin-top:170px;
+  margin-right:40px;
+  width:300px;
+
+}
+.order__summary li{
+  list-style: none;
+}
+.summary__items{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
